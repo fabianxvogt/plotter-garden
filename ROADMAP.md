@@ -16,6 +16,7 @@ State: building
 - [x] Same-visible-path travel comparison; worse heuristic candidates keep the original order.
 - [x] Deferred download cleanup and stale-import race protection.
 - [x] All four pen layers are populated by each generator when selected.
+- [x] Local edit intent invalidates pending imports without cancelling accepted completions; original-retained ordering is labeled truthfully.
 
 ## Next
 

@@ -18,6 +18,7 @@ Choose Herbarium, Orbitals, or Lattice bloom, tune the seed and growth, select p
 - `lib/plotter.ts` contains deterministic generators, exact mm paper sizes, a shared bounded config/recipe schema, SVG serialization, and a bounded nearest-neighbour travel heuristic.
 - `tests/plotter-fixtures.ts` checks path bounds for every generator, 25.4 mm/in conversion, segment preservation, adversarial recipe rejection, same-set removed-path optimization, all four pen layers, and the seed-1482 non-increase guarantee.
 - Imports reject oversized or malformed recipes before generation; stale asynchronous imports are ignored, and downloads keep their object URL alive briefly before cleanup.
+- A real import controller invalidates pending reads before local edits, path removal, undo, or reopen; accepted current imports still apply. The preview labels when the original stroke order is retained.
 - Optimization reorders whole strokes and never rewrites `d` geometry. It is useful but not guaranteed globally shortest.
 - Physical paper checks have not been performed. Do not describe the output as plotter-ready until three independent test plots pass.
 

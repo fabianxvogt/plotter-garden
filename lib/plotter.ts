@@ -79,3 +79,4 @@ export function parseRecipe(text: string): GardenRecipe | null {
   }
 }
 export function isLatestImport(requestId: number, latestRequestId: number): boolean { return requestId === latestRequestId; }
+export function createImportController() { let latestRequestId = 0; let cancelActive: (() => void) | null = null; return { begin(cancel: () => void): number { cancelActive?.(); latestRequestId += 1; cancelActive = cancel; return latestRequestId; }, invalidate(): void { latestRequestId += 1; cancelActive?.(); cancelActive = null; }, finish(requestId: number): boolean { if (!isLatestImport(requestId, latestRequestId)) return false; cancelActive = null; return true; } }; }
