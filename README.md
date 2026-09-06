@@ -4,7 +4,7 @@ Plotter Garden is a local-first browser tool for growing attractive pen drawings
 
 Status: building / v1 implementation. The ordinary source is public at [fabianxvogt/plotter-garden](https://github.com/fabianxvogt/plotter-garden). The accepted product/release source is commit `706addc713c8d2042dacaf13f33821629af70649`; later documentation commits do not change that product source. The browser generator is genuine and bounded; no hardware control or physical test plots have been performed, so this project makes no plotter-readiness claim.
 
-The Site app is still unpublished. The browser and full-v1 release gates remain open pending independent code review and a clean fresh-browser journey review; physical validation is a separate later gate.
+The Site app is publicly deployed as a preview at https://plotter-garden.fabian523417.chatgpt.site from saved Site version `1`. The bounded browser journey was reviewed, but full-v1 remains open: native file chooser/import, other-device and sustained-performance checks, human acceptance, and physical paper plots remain unverified.
 
 ## Quick start
 

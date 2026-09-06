@@ -6,7 +6,8 @@ State: building
 
 - Ordinary source: [fabianxvogt/plotter-garden](https://github.com/fabianxvogt/plotter-garden).
 - Accepted product/release source: `706addc713c8d2042dacaf13f33821629af70649`.
-- The Site app remains private and unpublished. Browser/full-v1 gates remain open; no deploy or physical test plot is claimed.
+- Public Site preview: https://plotter-garden.fabian523417.chatgpt.site (saved Site version `1`).
+- The bounded browser journey passed review. Full-v1 gates remain open for native file chooser/import, other-device and sustained-performance checks, human acceptance, and physical paper plots.
 
 ## Now
 
@@ -23,11 +24,12 @@ State: building
 - [x] Deferred download cleanup and stale-import race protection.
 - [x] All four pen layers are populated by each generator when selected.
 - [x] Local edit intent invalidates pending imports without cancelling accepted completions; original-retained ordering is labeled truthfully.
+- [x] Bounded browser journey review, save/reopen, fresh SVG/recipe export, and narrow-layout checks completed for the accepted release.
+- [x] Public Site preview deployed from saved version `1`; this does not claim full-v1 acceptance.
 
 ## Next
 
-- [ ] Independent code review and a clean fresh-browser journey review.
-- [ ] Review the public app release with the owner; Site deployment remains pending and is not represented by this source publication.
+- [ ] Complete remaining full-v1 gates: native file chooser/import, other-device and sustained-performance checks, and human acceptance.
 - [ ] Validate three real paper plots on supported hardware before any plotter-readiness claim.
 
 ## Later

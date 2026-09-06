@@ -1,7 +1,7 @@
 # Plotter Garden docs
 
 - Public source: [fabianxvogt/plotter-garden](https://github.com/fabianxvogt/plotter-garden), with accepted product/release source at `706addc713c8d2042dacaf13f33821629af70649`.
-- Release state: the Site app is private and unpublished. Browser/full-v1 review gates and physical validation remain open; no CI success or deployment is claimed.
+- Release state: public Site preview at https://plotter-garden.fabian523417.chatgpt.site from saved Site version `1`; bounded browser review passed, while full-v1 and physical validation remain open. CI is not configured; no CI success is claimed.
 - `README.md` at the project root: audience, quick start, evidence, and limits.
 - `ROADMAP.md` at the project root: living delivery state and next verification gates.
 - `reports/`: private worker handoff evidence for the parent orchestration thread.
