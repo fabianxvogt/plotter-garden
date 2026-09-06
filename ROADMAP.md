@@ -2,6 +2,12 @@
 
 State: building
 
+## Public source and release state
+
+- Ordinary source: [fabianxvogt/plotter-garden](https://github.com/fabianxvogt/plotter-garden).
+- Accepted product/release source: `706addc713c8d2042dacaf13f33821629af70649`.
+- The Site app remains private and unpublished. Browser/full-v1 gates remain open; no deploy or physical test plot is claimed.
+
 ## Now
 
 - [x] Three genuinely distinct deterministic generators.
@@ -21,7 +27,7 @@ State: building
 ## Next
 
 - [ ] Independent code review and a clean fresh-browser journey review.
-- [ ] Review public release eligibility with the owner; no deploy performed by this worker.
+- [ ] Review the public app release with the owner; Site deployment remains pending and is not represented by this source publication.
 - [ ] Validate three real paper plots on supported hardware before any plotter-readiness claim.
 
 ## Later
