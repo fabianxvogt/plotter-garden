@@ -12,6 +12,10 @@ State: building
 - [x] Local save/reopen and versioned recipe JSON import/export with size/error handling.
 - [x] Scaled layered SVG export with mm units and exact viewBox.
 - [x] Independent math fixtures and clean build/lint checks.
+- [x] Full bounded recipe schema and generation safety caps for seed, growth, margins, layers, and stroke width.
+- [x] Same-visible-path travel comparison; worse heuristic candidates keep the original order.
+- [x] Deferred download cleanup and stale-import race protection.
+- [x] All four pen layers are populated by each generator when selected.
 
 ## Next
 
