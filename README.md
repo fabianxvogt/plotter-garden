@@ -15,6 +15,12 @@ npm run dev
 
 Choose Herbarium, Orbitals, or Lattice bloom, tune the seed and growth, select paper, click paths to inspect or remove details, save a recipe, and export a layered SVG. The work stays in the browser. JSON recipes are versioned (`version: 1`) and can be reopened locally or imported after download.
 
+## Public preview evidence
+
+A fresh isolated public-preview run measured CSS `window.innerWidth=390`, `window.innerHeight=844`, and `devicePixelRatio=1`; the SVG preview rendered without an HTML canvas. The settled page showed the Herbarium drawing and the advertised seed, growth, paper, Save, Reopen, Export SVG, and optimization controls.
+
+The observed workflow changed seed `1482` to `1499`, changing the recipe name and travel metrics; Save reported a local save; reload followed by the explicit Reopen control restored seed `1499` and the `garden-herbarium-1499` drawing. Fresh SVG export produced a 17,954-byte file with `210mm × 297mm` dimensions and `viewBox="0 0 210 297"`. No page or console errors were observed.
+
 ## Evidence and limits
 
 - `lib/plotter.ts` contains deterministic generators, exact mm paper sizes, a shared bounded config/recipe schema, SVG serialization, and a bounded nearest-neighbour travel heuristic.

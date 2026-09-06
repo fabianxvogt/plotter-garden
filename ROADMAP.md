@@ -26,6 +26,8 @@ State: building
 - [x] Local edit intent invalidates pending imports without cancelling accepted completions; original-retained ordering is labeled truthfully.
 - [x] Bounded browser journey review, save/reopen, fresh SVG/recipe export, and narrow-layout checks completed for the accepted release.
 - [x] Public Site preview deployed from saved version `1`; this does not claim full-v1 acceptance.
+- [x] Fresh isolated public-preview check measured CSS `390×844` at `devicePixelRatio=1`, with the SVG preview rendered and no page or console errors observed.
+- [x] Public preview workflow observed: seed edit, local Save, reload, explicit Reopen restoration, and fresh SVG export with `210mm × 297mm` units.
 
 ## Next
 
