@@ -1,3 +1,13 @@
+<!-- portfolio
+{
+  "title": "Plotter Garden",
+  "topic": "Creative tools/Generative art",
+  "type": "product",
+  "description": "Local-first generative pen drawings with bounded SVG export",
+  "demo": "https://plotter-garden.fabian523417.chatgpt.site"
+}
+-->
+
 # Plotter Garden
 
 Plotter Garden is a local-first browser tool for growing attractive pen drawings that stay inside real paper margins. It is for artists, makers, and plotter-curious people who want a distinctive vector result they can save, reopen, inspect, and export.
